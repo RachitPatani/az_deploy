@@ -12,7 +12,7 @@ public class DemoApplication {
 	@GetMapping("/message")
 	public  String message()
 	{
-		return "hello from sprung";
+		return "hello from spring boot";
 	}
 
 	public static void main(String[] args) {
